@@ -9,13 +9,17 @@ import Contact from './components/Contact'
 
 import {Toaster} from "react-hot-toast"
 
+import News from './components/News'
+import TradingViewWidget from './components/TradingViewWidget'
+import MiniMap from './components/MiniMap'
+
 
 function App() {
   return (
     <>
     <div>
-    <Navbar/ >
-    <Home/>
+    <Navbar />
+    <Home/ >
     <Sectors/>
     <Portfolio/>
     <Wealth />

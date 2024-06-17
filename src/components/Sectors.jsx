@@ -1,14 +1,19 @@
 import React from 'react'
 
+import AdvancedChart from './AdvancedChart'
+
 function Sectors() {
   return (
     <div name="Sectors" className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-16 ">
         <div>
       <h1 className="text-3xl font-bold mb-5 ">Sectors</h1>
       <p>
-      List below are the sectors which are in growing terms, also we have given some basic idea about the sectors and also picked right stocks from that sector which will enhance your investing  journey.
+      Advanced Real Time Chart : You can track any stock live and analyse with indicators.
 
       </p>
+      <div className="my-4, flex 2xl:align-content: center">
+        <AdvancedChart />
+      </div>
       <br />
       <h1 className="text-green-600 font-semibold text-xl">Power and Ev's
       </h1>

@@ -14,8 +14,7 @@ import { RiStockLine } from "react-icons/ri";
 
 import { ReactTyped } from "react-typed";
 
-
-
+import StockIndex from './StockIndex';
 
 
 
@@ -51,6 +50,9 @@ function Home(){
 
             Disclaimer : “Investment in securities market are subject to market risks. Read all the related documents carefully before investing.”
             </p>
+            <div>
+                <StockIndex />
+            </div>
             <br />
             {/* Social media Icons */}
             <div className="flex flex-col items-center md:flex-row justify-between space-y-6 md:space-y-0">
@@ -84,7 +86,7 @@ function Home(){
 
             </div>
             <div className="space-y-2">
-                <h1 classNamw="font-bold">Views are personal</h1>
+                <h1 className="font-bold">Views are personal</h1>
                 <div className="flex space-x-5">
                 <AiOutlineStock className="text-xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px]"/>
                 <RiStockFill className="text-xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px]"/>

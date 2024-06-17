@@ -8,6 +8,8 @@ import motherson from "../../public/motherson.png"
 import polycab from "../../public/polycab.png"
 import zomato from "../../public/zomato.png"
 
+import MiniMap from './MiniMap'
+
 
 
 function Wealth() {
@@ -53,7 +55,9 @@ function Wealth() {
     <div name="Wealth" className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-16 ">
       <div>
         <h1 className="text-3xl font-bold mb-5 ">Wealth</h1>
-        <p className="">These are the top picks which are mainly mid-caps but have multibagger potential.These stocks are very well researched and have great potential in future. </p>
+        <p className="">These are the top picks which are mainly mid-caps but have multibagger potential.These stocks are very well researched and have great potential in future. For better U.S. Dollar - India Rupee Chart
+            <MiniMap />
+             </p>
         <div className="grid grid-cols-2 md:grid-cols-5 gap-7 my-3">
             {
                 cardItem.map(({id,logo,name  })=>(

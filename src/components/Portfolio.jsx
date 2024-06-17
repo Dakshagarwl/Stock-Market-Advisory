@@ -6,6 +6,8 @@ import astral from "../../public/astral.png"
 import icici from "../../public/icici.png"
 import asianpaint from "../../public/asianpaint.png"
 
+import News from './News'
+
 
 function Portfolio() {
     const cardItem=[
@@ -40,7 +42,14 @@ function Portfolio() {
     <div name="Portfolio" className="max-w-screen-2xl container mx-auto px-4 md:px-20 mt-10 ">
       <div>
         <h1 className="text-3xl font-bold mb-5 ">Portfolio</h1>
-        <span className="underline font-semibold">Must haves in your portfolio.</span>
+        <span className="underline font-semibold">Latest news related to markets.</span>
+        <div>
+            <News />
+        </div>
+        
+        <div>
+            
+        </div>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-3 my-5">
             {
                 cardItem.map(({id,logo,name  })=>(
